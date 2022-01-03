@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  link-server:
+    image: 'e4d4a833f3ab'
+    ports:
+     - "3001:3001"
+    restart: always
